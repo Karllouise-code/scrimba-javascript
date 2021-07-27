@@ -1,22 +1,20 @@
 // document.getElementById("count-el").innerText = 5
 
-let countEl = document.getElementById("count-el")
-let saveEl = document.getElementById("save-el")
+let countEl = document.getElementById('count-el');
+let saveEl = document.getElementById('save-el');
 
-
-let count = 0
+let count = 0;
 
 function increment() {
     count += 1;
-    countEl.innerText = count
-
+    countEl.innerText = count;
 }
 
 function save() {
-    saveEl.textContent += count + " - "
+    saveEl.textContent += count + ' - ';
     console.log(count);
-    countEl.textContent = 0
-    count = 0
+    countEl.textContent = 0;
+    count = 0;
 }
 
 /* let username = "Karl"
