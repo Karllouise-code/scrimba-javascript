@@ -88,3 +88,81 @@ console.log(`Life: ${isAlive}`)
 console.log(message)*/
 
 //* 7th
+/* const messageEl = document.getElementById('message-el')
+console.log('🚀 ~ file: index.js ~ line 92 ~ messageEl', messageEl)
+
+function startGame() {
+    let firstCard = 10
+    let secondCard = 4
+    let sum = firstCard + secondCard
+    let hasBlackJack = false
+    let isAlive = true
+    let message = ''
+
+    if (sum <= 20) {
+        message = 'Do you want to draw a new card?'
+    } else if (sum === 21) {
+        message = "Wohoo! You've got Blackjack!"
+        hasBlackJack = true
+    } else {
+        message = "You're out of the game!"
+        isAlive = false
+    }
+
+    messageEl.textContent = message
+} */
+
+//* 8th
+/* const messageEl = document.getElementById('message-el')
+const sumEl = document.getElementById('sum-el')
+
+function startGame() {
+    let firstCard = 18
+    let secondCard = 4
+    let sum = firstCard + secondCard
+    let hasBlackJack = false
+    let isAlive = true
+    let message = ''
+
+    if (sum <= 20) {
+        message = 'Do you want to draw a new card?'
+    } else if (sum === 21) {
+        message = "Wohoo! You've got Blackjack!"
+        hasBlackJack = true
+    } else {
+        message = `You're out of the game!`
+        isAlive = false
+    }
+
+    sumEl.textContent = `Sum: ${sum}`
+    messageEl.textContent = message
+}
+ */
+
+//* 9th
+const messageEl = document.getElementById('message-el')
+const sumEl = document.getElementById('sum-el')
+const cardEl = document.getElementById('card-el')
+
+function startGame() {
+    let firstCard = 18
+    let secondCard = 4
+    let sum = firstCard + secondCard
+    let hasBlackJack = false
+    let isAlive = true
+    let message = ''
+
+    if (sum <= 20) {
+        message = 'Do you want to draw a new card?'
+    } else if (sum === 21) {
+        message = "Wohoo! You've got Blackjack!"
+        hasBlackJack = true
+    } else {
+        message = `You're out of the game!`
+        isAlive = false
+    }
+
+    cardEl.textContent = `Cards: ${firstCard} ${secondCard}`
+    sumEl.textContent = `Sum: ${sum}`
+    messageEl.textContent = message
+}

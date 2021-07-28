@@ -3,9 +3,19 @@
         <!-- Link to the index.css file
         E.g. search for "how to link to css from html" -->
         <link rel="stylesheet" href="index.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <h1>Blackjack</h1>
+        <p id="message-el">Want to play a round?</p>
+        <p id="card-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <button onclick="startGame()">start game</button>
         <script src="index.js"></script>
     </body>
 </html>
