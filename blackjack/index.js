@@ -140,7 +140,7 @@ function startGame() {
  */
 
 //* 9th
-const messageEl = document.getElementById('message-el')
+/* const messageEl = document.getElementById('message-el')
 const sumEl = document.getElementById('sum-el')
 const cardEl = document.getElementById('card-el')
 
@@ -166,3 +166,131 @@ function startGame() {
     sumEl.textContent = `Sum: ${sum}`
     messageEl.textContent = message
 }
+
+function newCard() {
+    console.log('Drawing a new card from the deck!')
+} */
+
+//* 10th
+/* const messageEl = document.getElementById('message-el')
+const sumEl = document.getElementById('sum-el')
+const cardEl = document.getElementById('card-el')
+
+let firstCard = 1
+let secondCard = 8
+let sum = firstCard + secondCard
+let hasBlackJack = false
+let isAlive = true
+let message = ''
+function startGame() {
+    if (sum <= 20) {
+        message = 'Do you want to draw a new card?'
+    } else if (sum === 21) {
+        message = "Wohoo! You've got Blackjack!"
+        hasBlackJack = true
+    } else {
+        message = `You're out of the game!`
+        isAlive = false
+    }
+
+    cardEl.textContent = `Cards: ${firstCard} ${secondCard}`
+    sumEl.textContent = `Sum: ${sum}`
+    messageEl.textContent = message
+}
+
+function newCard() {
+    console.log('Drawing a new card from the deck!')
+    // 1. Create a card variable, and hard code its value to a number (2-11)
+    let card = 5
+    // 2. Add the new card to the sum variable
+    sum += card
+    // 3. Call startGame()
+    startGame()
+    cardEl.textContent += ` ${card}`
+} */
+
+//* 11th
+/* const messageEl = document.getElementById('message-el')
+const sumEl = document.getElementById('sum-el')
+const cardEl = document.getElementById('card-el')
+
+let firstCard = 1
+let secondCard = 8
+let sum = firstCard + secondCard
+let hasBlackJack = false
+let isAlive = true
+let message = ''
+
+// Create a new function called startGame() that calls renderGame()
+function startGame() {
+    renderGame()
+}
+
+function renderGame() {
+    if (sum <= 20) {
+        message = 'Do you want to draw a new card?'
+    } else if (sum === 21) {
+        message = "Wohoo! You've got Blackjack!"
+        hasBlackJack = true
+    } else {
+        message = `You're out of the game!`
+        isAlive = false
+    }
+
+    cardEl.textContent = `Cards: ${firstCard} ${secondCard}`
+    sumEl.textContent = `Sum: ${sum}`
+    messageEl.textContent = message
+}
+
+function newCard() {
+    console.log('Drawing a new card from the deck!')
+    let card = 5
+    sum += card
+    renderGame()
+    cardEl.textContent += ` ${card}`
+} */
+
+//* 12th
+
+/* const messageEl = document.getElementById('message-el')
+const sumEl = document.getElementById('sum-el')
+const cardEl = document.getElementById('card-el')
+
+let firstCard = 1
+let secondCard = 8
+let cards = [firstCard, secondCard]
+let sum = cards[0] + cards[1]
+let hasBlackJack = false
+let isAlive = true
+let message = ''
+
+// Create a new function called startGame() that calls renderGame()
+function startGame() {
+    renderGame()
+}
+
+function renderGame() {
+    if (sum <= 20) {
+        message = 'Do you want to draw a new card?'
+    } else if (sum === 21) {
+        message = "Wohoo! You've got Blackjack!"
+        hasBlackJack = true
+    } else {
+        message = `You're out of the game!`
+        isAlive = false
+    }
+
+    cardEl.textContent = `Cards: ${cards[0]}, ${cards[1]},`
+    sumEl.textContent = `Sum: ${sum}`
+    messageEl.textContent = message
+}
+
+function newCard() {
+    console.log('Drawing a new card from the deck!')
+    let card = 5
+    sum += card
+    renderGame()
+    cardEl.textContent += ` ${card}`
+} */
+
+//* 13th

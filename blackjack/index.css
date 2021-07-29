@@ -5,17 +5,19 @@
     overflow: hidden;
 }
 body {
-    height: 100vh;
     background-image: url('./images/blackjackBg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
+    min-height: 100vh;
+    text-align: center;
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-direction: column;
     color: goldenrod;
+    margin: auto;
 }
 
 h1 {
@@ -36,7 +38,10 @@ button {
     font-size: 1em;
     width: 150px;
     background: goldenrod;
+    color: green;
     border-radius: 0.3rem;
     text-transform: uppercase;
-    padding: 5px 0;
+    padding: 5px;
+    margin: 0.5em 0;
+    cursor: pointer;
 }
