@@ -2,4 +2,4 @@
 
 ## Screenshot
 
-![](https://github.com/Karllouise-code/scrimba-javascript/blob/calculator/fullscreenshot.png)
+![](https://github.com/Karllouise-code/scrimba-javascript/blob/master/calculator/fullscreenshot.png)
