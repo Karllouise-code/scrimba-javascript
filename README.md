@@ -6,9 +6,6 @@ Compilation of my works on Scrimba - [Learn JavaScript for Free](https://scrimba
 
 ### Contents
 
-- #### [Passenger Counter App](#passenger-counter-app)
-- #### [Blackjack App](#blackjack-app)
+#### [Passenger Counter App](https://github.com/Karllouise-code/scrimba-javascript/tree/master/counter-app)
 
-##### [Passenger Counter App](https://github.com/Karllouise-code/scrimba-javascript/tree/master/counter-app)
-
-##### [Blackjack App](https://github.com/Karllouise-code/scrimba-javascript/tree/master/blackjack)
+#### [Blackjack App](https://github.com/Karllouise-code/scrimba-javascript/tree/master/blackjack)
