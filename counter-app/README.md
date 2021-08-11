@@ -2,4 +2,4 @@
 
 ## Screenshot
 
-![](https://github.com/Karllouise-code/scrimba-javascript/blob/counter-app/fullscreenshot.png)
+![](https://github.com/Karllouise-code/scrimba-javascript/blob/master/counter-app/fullscreenshot.png)
