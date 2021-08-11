@@ -1,0 +1,47 @@
+/* Complete the CSS styling according to the provided design */
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+}
+body {
+    background-image: url('./images/blackjackBg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    color: goldenrod;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3rem;
+}
+p {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0 15px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    font-weight: bold;
+    font-size: 1em;
+    width: 150px;
+    background: goldenrod;
+    color: green;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 0.5em 0;
+    cursor: pointer;
+}
